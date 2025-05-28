@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Marc Márquez Profile Card</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .profile-container {
+      text-align: center;
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 30px;
+      color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+
+      background-image: url('d7684efe4e1f0c6384500284f1bce055.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .overlay {
+
+      padding: 20px;
+      border-radius: 12px;
+    }
+
+    .profile-picture {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #ffffffcc;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      margin-bottom: 20px;
+    }
+
+    .role {
+      font-size: 20px;
+      color: #ffeaea;
+    }
+
+    .location {
+      font-style: italic;
+      color: #f3dcdc;
+    }
+
+    .description {
+      margin-top: 20px;
+      font-size: 16px;
+      color: #ffeaea;
+    }
+
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+    }
+
+    .social-links a img {
+      width: 40px;
+      height: 40px;
+      transition: transform 0.3s ease;
+    }
+
+    .social-links a:hover img {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-container">
+    <div class="overlay">
+      <h1>Marc Márquez</h1>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/8/87/Marc_Marquez_2023_Le_Mans_%28cropped%29.jpg"
+        alt="Marc Márquez"
+        class="profile-picture"
+      />
+      <p class="role">MotoGP Rider • 8x World Champion</p>
+      <p class="location">Location: Cervera, Spain</p>
+      <p class="description">
+        Hola! I'm Marc Márquez. Racing is my passion, my lifestyle, and my dream. I've conquered the MotoGP world and continue to push the limits on every lap.
+      </p>
+      <div class="social-links">
+        <a href="https://www.instagram.com/marcmarquez93/" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram" />
+        </a>
+        <a href="https://x.com/marcmarquez93" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" alt="Twitter" />
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
